@@ -11,7 +11,38 @@
 </head>
 
 <body>
-	<div class="bgcolor w3-display-container w3-animate-opacity w3-text-white">
+	<div class="w3-top">
+		<div class="w3-bar">
+			<button onclick="document.getElementById('menu').style.display='block'" class="w3-button menu">Menu &#9776;</button>
+		</div>
+			 <a href="index.html"><img class="logo" src="images/2x/Artboard 1@2x.png" alt="Rainmaker"></a>
+	</div>
+	<div class="w3-display-container w3-animate-opacity w3-text-white">
+		
+		<!--model menu-->
+		<div id="menu" class="w3-modal w3-animate-opacity" style="z-index: 200;">
+			<div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-gray">
+        <span onclick="document.getElementById('menu').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+		  <img src="images/logo.svg" alt="Peddada" class="w3-image" style="width:25%;">
+      </header>
+      <div class="w3-container">
+        <ul class="w3-ul w3-center">
+  <li class="menu-text"></li>
+  <li class="menu-text"></li>
+  <li class="menu-text"></li>
+	<li class="menu-text"></li>
+			<li class="menu-text"><a href="silvertwo.html">s</a></li>
+<li class="menu-text"><a href="contact.html">Contact</a></li>
+</ul>
+      </div>
+      <footer class="w3-container w3-gray">
+        <p>Rainmaker Food Solutions, LLC&reg;</p>
+      </footer>
+    </div>
+		</div>
+		<!-- end menu -->
 		<audio id="myAudio">
     <source src="audio/263_full_design-for-life_0158_preview.mp3" type="audio/mpeg">
       Your browser does not support the audio format.
@@ -27,12 +58,40 @@
     <button type="button" class="btn btn-link" onclick="playSong()"><em class="fa fa-play-circle"></em></button><br>
     <button type="button" class="btn btn-link" onclick="pauseSong()"><em class="fa fa-pause-circle"></em></button>
       </div>
-		<div class="w3-display-topright w3-padding-large">
-    <button onclick="document.getElementById('menu').style.display='block'" class="w3-button menu">Menu &#9776;</button>
-  </div>
-		<div class="w3-display-topleft">
-	  	<a href="index.html"><img src="images/2x/Artboard 1@2x.png" alt="Rainmaker" class="logo"></a>
-	  </div>
+		<div class="w3-display-container" style="top:150px; left:50px;">
+		<!-- left text info box -->
+					<div class="w3-container w3-half" style="background:#dfd1a7;color:#623412;">
+			by
+			</div>
+		
+		<!-- image carousel right -->
+<div class="w3-container w3-half box-height" style="background:#dfd1a7;color:#623412;">
+			<div class="w3-content">
+				<img class="myImages w3-animate-top" src="images/changemakers.png" alt="image" style="width:100%;">
+				<img class="myImages w3-animate-opacity" src="images/sugarpova_betterbites.png" alt="image" style="width:100%;">
+				<img class="myImages w3-animate-opacity" src="images/changemakers.png" alt="image" style="width:100%;">
+				<img class="myImages w3-animate-opacity" src="images/sugarpova_betterbites.png" alt="image" style="width:100%;">
+			</div>
+			</div>
+</div>
+		
+		<footer class="w3-container w3-teal w3-bottom">hi</footer>
 	</div> <!-- end main container -->
+	<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("myImages");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
 </body>
 </html>

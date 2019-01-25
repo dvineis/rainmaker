@@ -10,11 +10,25 @@ body,h1 {font-family: "Roboto", sans-serif}
 }
 .menu {
 	color:#000;
+	float:right;
+	margin-bottom: 0;
 }
 .logo {
+	position: fixed;
+	top:10px;
+	left:10px;
 	width:100%;
 	max-width:300px;
 }
+.box-height {
+}
+footer {
+	height:50px;
+}
+.myImages {
+	display: none;
+}
+
 .icon-bar {
   position: fixed;
   top: 50%;
