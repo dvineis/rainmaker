@@ -14,6 +14,9 @@
   background-size: cover;
 }
 
+.carousel-control {
+	background-image: linear-gradient(to right, rgba(250, 0, 0, 0) 0px, rgba(255, 0, 0, 0.5) 100%);
+}
 a.carousel-control:hover, a.carousel-control.right:hover {
  background-image: linear-gradient(to right, rgba(250, 0, 0, 0) 0px, rgba(255, 0, 0, 0.5) 100%);
 }
@@ -92,4 +95,7 @@ a.carousel-control.left:hover{
 .audio_color {
     background: #000;
   color: white;
+}
+.move {
+	margin-left:55px;
 }

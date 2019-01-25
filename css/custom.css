@@ -1,8 +1,92 @@
-.menu-text {
-    text-align:center;
-    color:#48a23f;
+/* standard layout */
+
+body,h1 {font-family: "Roboto", sans-serif}
+		body, html {height: 100%}
+	.bgcolor {
+  background: #fff;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.menu {
+	color:#000;
+}
+.logo {
+	width:100%;
+	max-width:300px;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index:100;
 }
 
-.carousel-inner {
-    color:black;
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.audio-bar {
+  position: fixed;
+  top: 90%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index:100;
+}
+
+.audio-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.audio-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+.audio_color {
+    background: #000;
+  color: white;
+}
+.move {
+	margin-left:55px;
 }

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rainmaker Food Solutions</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-slider.css" rel="stylesheet">
+      <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  </head>
+
+  <body>
+       <!-- audio tag -->
+  <audio id="myAudio">
+    <source src="audio/263_full_design-for-life_0158_preview.mp3" type="audio/mpeg">
+      Your browser does not support the audio format.
+   </audio>
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> 
+  <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> 
+  <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+  <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> 
+</div>
+     
+<div class="audio-bar">
+    <button type="button" class="btn btn-link" onclick="playSong()"><em class="fa fa-play-circle"></em></button><br>
+    <button type="button" class="btn btn-link" onclick="pauseSong()"><em class="fa fa-pause-circle"></em></button>
+      </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        
+   <!-- end audio -->
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="fluid logo"  src="images/rainmaker_logo.svg" style="width:auto;height:85px;"/></a>
+          <!--
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+-->
+        <div id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#navModal">Menu<span class="navbar-toggler-icon"></span>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+              <!--
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <!-- Modal Navigation-->
+  <div class="modal fade" id="navModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          
+            <a class="navbar-brand" href="#"><img class="fluid logo"  src="images/rainmaker_logo.svg" style="width:auto;height:85px;"/></a>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Menu...
+                      <ul class="navbar-nav ml-auto menu-text">
+
+             <li class="nav-item">
+              <a class="nav-link" href="#about"><span class="fas fa-info-circle"></span> About Rainmaker</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="fas fa-cogs"></span> Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Brands</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#"><span class="fas fa-bullhorn"></span> Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="fas fa-envelope"></span> Contact</a>
+            </li>
+                                
+            </ul>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+      <!-- end model nav -->
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide move" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('images/changemakers.png'); width:100%;">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="slide_text_main">First Slide</h3>
+              <p class="slide_text">This is a description for the first slide.</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/sugarpova_betterbites.png');width:100%;">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="slide_text_main">Second Slide</h3>
+              <p class="slide_text">This is a description for the second slide.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080');width:100%;">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="slide_text_main">Third Slide</h3>
+              <p class="slide_text">This is a description for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- About Content -->
+    <section id="about" class="py-5 move">
+      <div class="container">
+        <h1>About Rainmaker</h1>
+        <p>Rainmaker is a team of experienced professionals who want to offer “better for you” products in the market.  Our products have reached over 80,000 retail doors. Our brands focus on being naturally conscious and certified with the best ingredients.  Our team of professionals that help take brands to the next level. We become a part of your company and help you reach your goals in the market. Trust us to be your sales team, program advisors, packaging designers, support for retail distribution, you name it, we do it.
+ </p>
+ <p>As a team we have over 100 years experience in CPG development, manufacturing, formulation, packaging, sales and distribution.  We understand the market and consider ourselves specialists in our field with the know how of taking an idea from inception to launch.</p>
+ <p>Our design team has developed a number of sku's that have reached mass distribution centers, grocers and more.</p>
+ <p>Our sales team has a broker network reaching over 80,000 doors.</p>
+      </div>
+		<div class="container">
+			<h3 class="text-center">OUR TEAM</h3>
+			<div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="paris.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Dan</strong></p>
+          <p>Friday 27 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">About</button>
+        </div>
+      </div>
+		</div>
+			</div>
+    </section>
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+              <input type="number" class="form-control" id="psw" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Pay 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <!--audio script-->
+<script>
+var sound = document.getElementById("myAudio");
+function playSong() {
+    sound.play();
+}
+function pauseSong() {
+    sound.pause();
+}
+</script>
+      
+  </body>
+
+</html>
