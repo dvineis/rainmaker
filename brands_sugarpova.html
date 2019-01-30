@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	
+	<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('images/maria_sitting.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+</head>
+
+<body>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Brands</a>
+    <a href="#">News/Media</a>
+	<a href="#">Contact</a>
+  </div>
+</div>
+	<!-- logo bar -->
+<div class="w3-top w3-white"> 
+			<div class= "w3-bar w3-center w3-margin-top">
+<a href="index.html"><img class="logo" src="images/2x/Artboard 1@2x.png" alt="Rainmaker"></a>
+</div>
+	</div>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>Sugarpova</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge"  style="margin-top:150px;">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">About Sugarpova</button></p>
+    <p><a href="https://sugarpova.com/collections/shop"><button class="w3-button w3-black">Shop Sugarpova</button></a></p>
+  </div>
+ 
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>About Sugarpova</h1>
+    </div>
+    <div class="w3-container">
+      <p>Sugarpova is a premium candy line that reflects the fun, fashionable, sweet side of international tennis sensation Maria Sharapova. A long time candy lover with a surprising sweet tooth, Maria has created her own candy business to offer an accessible bit of luxury interpreting classic candies in her own signature style.  Website: <a href="https://sugarpova.com/">sugarpova.com</a></p>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Maria's Story</h1>
+    </div>
+    
+	<div class="w3-container">
+	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lCXHgKiZTYM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>I’ve been an athlete pretty much my entire life, where the intersection of work, play and training has often found a little something sweet mixed in. It started when I was a little girl in Russia, and my dad would reward me with a lollipop or chocolate after a long day of practice.
+It stood out to me then–and still today–that there’s no reason why hard work can’t be rewarded with a little sweet treat. Because the key to a happy, healthy life for me is this idea of Moderation in Moderation–you can 100% have your cake (or candy) and enjoy it, too.
+
+That’s why I started Sugarpova–to celebrate the fun and passion of candy by creating high quality treats you can feel good about indulging in. It all started with gummy candies, and now we’ve partnered with renowned Baron Chocolatier to create the Sugarpova Premium Chocolate Collection. Because it’s all better when your sweet reward is packed with antioxidants and made from natural, non-GMO ingredients.
+
+So, go ahead and treat yourself to something sweet. You deserve it!</p>
+    </div>
+  </div>
+</div>
+<footer class="w3-bar w3-bottom">
+		
+			<button type="button" class="w3-button" onclick="playSong()"><i class="fa fa-play-circle"></i></button>
+    <button type="button" class="w3-button" onclick="pauseSong()"><i class="fa fa-pause-circle"></i></button>
+			<button onclick="openNav()" class="w3-button menu">Menu &#9776;</button>
+		</footer>
+<script src="js/nav.js"></script>
+</body>
+</html>

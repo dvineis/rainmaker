@@ -57,6 +57,15 @@ body,h1 {
 	font-size: 150%;
 	padding-right:200px
 }
+
+.brands {
+	font-size: 50pt;
+	font-weight: 900;
+	line-height: 60px;
+	-webkit-text-stroke: 1px #fff;
+	-webkit-text-fill-color:#48a23f;
+	text-transform: uppercase;
+}
 .main_heading ul {
 	color:black;
 }
