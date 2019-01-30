@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Brands</a>
+    <a href="#">News/Media</a>
+	<a href="#">Contact</a>
+  </div>
+</div>
+	<!-- logo bar -->
+<div class="w3-top w3-white"> 
+			<div class= "w3-bar w3-center w3-margin-top">
+<a href="index.html"><img class="logo" src="images/2x/Artboard 1@2x.png" alt="Rainmaker"></a>
+</div>
+	</div>
+<div class="bgcolor w3-display-container w3-animate-opacity w3-text-white">
+	
+
+<audio id="myAudio">
+    <source src="audio/263_full_design-for-life_0158_preview.mp3" type="audio/mpeg">
+      Your browser does not support the audio format.
+   </audio>
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> 
+  <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> 
+  <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+  <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> 
+</div> 
+
+		<div class="w3-container" style="margin-left:55px;margin-top:150px;margin-bottom: 0;">
+		<!-- left text info box -->
+			
+			<div class="w3-row w3-padding main_heading">
+				<h2 class="w3-animate-top">Let’s take yout brand to the next level.</h2>
+   				<p class="w3-animate-bottom">Rainmaker is a team of professionals that help take brands to the next level. We become a part of your company and help you reach your goals in the market. Trust us to be your sales team, program advisors, packaging designers, support for retail distribution, you name it, we do it.</p>
+						
+			
+			</div>
+			<div class="w3-row w3-padding main_heading">
+				<div class="w3-row w3-padding-32">
+      <div class="w3-third w3-padding">
+		<div class="w3-card">
+        <img src="images/about_image_50.jpeg" alt="Random Name" style="width:100%">
+			<div class="w3-container">
+			<h3 class="">Package Design</h3>
+			</div>
+      </div>
+	</div>
+      <div class="w3-third w3-padding">
+		<div class="w3-card">
+        <img src="images/about_image_50.jpeg" alt="Random Name" style="width:100%">
+			<div class="w3-container">
+			<h3>Formulation</h3>
+			</div>
+      </div>
+	</div>
+      <div class="w3-third w3-padding">
+		<div class="w3-card">
+        <img src="images/about_image_50.jpeg" alt="Random Name" style="width:100%">
+			<div class="w3-container">
+			<h3>Marketing</h3>
+			</div>
+      </div>
+	</div>
+	<div class="w3-third w3-padding">
+		<div class="w3-card">
+        <img src="images/about_image_50.jpeg" alt="Random Name" style="width:100%">
+			<div class="w3-container">
+			<h3>Production</h3>
+			</div>
+      </div>
+	</div>
+	<div class="w3-third w3-padding">
+		<div class="w3-card">
+        <img src="images/about_image_50.jpeg" alt="Random Name" style="width:100%">
+			<div class="w3-container">
+			<h3>Distribution</h3>
+			</div>
+      </div>
+	</div>
+	<div class="w3-third w3-padding">
+		<div class="w3-card">
+        <img src="images/about_image_50.jpeg" alt="Random Name" style="width:100%">
+			<div class="w3-container">
+			<h3>Sales Network</h3>
+			</div>
+      </div>
+	</div>
+    </div>
+			</div>
+			
+		
+</div>
+	
+		<footer class="w3-bar w3-bottom">
+		
+			<button type="button" class="w3-button" onclick="playSong()"><i class="fa fa-play-circle"></i></button>
+    <button type="button" class="w3-button" onclick="pauseSong()"><i class="fa fa-pause-circle"></i></button>
+			<button onclick="openNav()" class="w3-button menu">Menu &#9776;</button>
+		</footer>
+	</div> <!-- end main container -->
+	<script src="js/nav.js"></script>
+	<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("myImages");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+</body>
+</html>
+
+

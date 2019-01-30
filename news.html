@@ -1,0 +1,233 @@
+<!doctype html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Untitled Document</title>         
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="css/custom.css"> 
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
+    </head>     
+    <body> 
+        <div id="myNav" class="overlay"> 
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+            <div class="overlay-content"> 
+                <a href="#">About</a> 
+                <a href="#">Services</a> 
+                <a href="#">Brands</a> 
+                <a href="#">News/Media</a> 
+                <a href="#">Contact</a> 
+            </div>             
+        </div>         
+        <!-- logo bar -->         
+        <div class="w3-top w3-white"> 
+            <div class="w3-bar w3-center w3-margin-top"> 
+                <a href="index.html">
+                    <img class="logo" src="images/2x/Artboard 1@2x.png" alt="Rainmaker">
+                </a>                 
+            </div>             
+        </div>         
+        <div class="w3-display-container w3-animate-opacity w3-text-white"> 
+            <!-- Grid -->             
+            <div class="w3-row w3-padding" style="margin-top:150px;"> 
+                <div class="w3-display-container w3-center main_heading">
+                    <h2>Rainmaker News</h2>
+                </div>                 
+                <!-- Blog entries -->                 
+                <div class="w3-col l8 s12"> 
+                    <!-- Blog entry -->                     
+                    <div class="w3-container w3-white w3-margin w3-padding-large"> 
+                        <div class="w3-center"> 
+                            <h3>TITLE HEADING</h3> 
+                            <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5> 
+                        </div>                         
+                        <div class="w3-justify"> 
+                            <img src="/w3images/girl_hat.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16"> 
+                            <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+            magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p> 
+                            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p> 
+                            <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn">
+                                    <b>Comment</b> 
+                                    <span class="w3-tag w3-white">1</span>
+                                </button></p> 
+                            <p class="w3-clear"></p> 
+                            <div class="w3-row w3-margin-bottom" id="demo1"> 
+                                <hr> 
+                                <div class="w3-col l10 m9 w3-light-grey"> 
+                                    <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4> 
+                                    <p>Great blog post! Following</p> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <hr> 
+                    <!-- Blog entry -->                     
+                    <div class="w3-container w3-white w3-margin w3-padding-large"> 
+                        <div class="w3-center"> 
+                            <h3>TITLE HEADING</h3> 
+                            <h5>Title description, <span class="w3-opacity">April 23, 2016</span></h5> 
+                        </div>                         
+                        <div class="w3-justify"> 
+                            <img src="/w3images/man_hat.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16"> 
+                            <p><strong>Hats!</strong> The trend this summer is hats for men!</p> 
+                            <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+            mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p> 
+                            <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)">
+                                    <b><i class="fa fa-thumbs-up"></i> Like</b>
+                                </button></p> 
+                            <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')">
+                                    <b>Replies  </b> 
+                                    <span class="w3-tag w3-white">2</span>
+                                </button></p> 
+                            <p class="w3-clear"></p> 
+                            <!-- Example of comment field -->                             
+                            <div id="demo2" style="display:none"> 
+                                <div class="w3-row"> 
+                                    <hr> 
+                                    <div class="w3-col l2 m3"> 
+                                        <img src="/w3images/girl_train.jpg" style="width:90px;"> 
+                                    </div>                                     
+                                    <div class="w3-col l10 m9"> 
+                                        <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4> 
+                                        <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <br> 
+                                    </div>                                     
+                                </div>                                 
+                                <div class="w3-row w3-margin-bottom"> 
+                                    <div class="w3-col l2 m3"> 
+                                        <img src="/w3images/girl.jpg" style="width:90px;"> 
+                                    </div>                                     
+                                    <div class="w3-col l10 m9"> 
+                                        <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4> 
+                                        <p>Love hats!!</p> 
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <!-- Blog entry -->                     
+                    <div class="w3-container w3-white w3-margin w3-padding-large"> 
+                        <div class="w3-center"> 
+                            <h3>TITLE HEADING</h3> 
+                            <h5>Title description, <span class="w3-opacity">April 7, 2016</span></h5> 
+                        </div>                         
+                        <div class="w3-justify"> 
+                            <img src="/w3images/runway.jpg" alt="Runway" style="width:100%" class="w3-padding-16"> 
+                            <p><strong>Dont miss!</strong> The runway in New York City this weekend is gonna be legendary!</p> 
+                            <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+            mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p> 
+                            <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)">
+                                    <b><i class="fa fa-thumbs-up"></i> Like</b>
+                                </button></p> 
+                            <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')">
+                                    <b>Replies  </b> 
+                                    <span class="w3-tag w3-white">3</span>
+                                </button></p> 
+                            <p class="w3-clear"></p> 
+                            <!-- Example of comment field -->                             
+                            <div id="demo3" style="display:none"> 
+                                <hr> 
+                                <div class="w3-row w3-margin-bottom"> 
+                                    <div class="w3-col l2 m3"> 
+                                        <img src="/w3images/girl_mountain.jpg" style="width:90px;"> 
+                                    </div>                                     
+                                    <div class="w3-col l10 m9"> 
+                                        <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4> 
+                                        <p>That was a great runway show! Thanks for everything.</p> 
+                                    </div>                                     
+                                </div>                                 
+                                <div class="w3-row w3-margin-bottom"> 
+                                    <div class="w3-col l2 m3"> 
+                                        <img src="/w3images/boy.jpg" style="width:90px;"> 
+                                    </div>                                     
+                                    <div class="w3-col l10 m9"> 
+                                        <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4> 
+                                        <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p> 
+                                    </div>                                     
+                                </div>                                 
+                                <div class="w3-row w3-margin-bottom"> 
+                                    <div class="w3-col l2 m3"> 
+                                        <img src="/w3images/girl_hood.jpg" style="width:90px;"> 
+                                    </div>                                     
+                                    <div class="w3-col l10 m9"> 
+                                        <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4> 
+                                        <p>Cant wait for the runway to start!</p> 
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <!-- END BLOG ENTRIES -->                     
+                </div>                 
+                <!-- About/Information menu -->                 
+                <div class="w3-col l4"> 
+                    <!-- Posts -->                     
+                    <div class="w3-white w3-margin"> 
+                        <div class="w3-container w3-padding w3-black"> 
+                            <h4>Latest Tweets</h4> 
+                        </div>                         
+                        <ul class="w3-ul w3-hoverable w3-white"> 
+                            <li class="w3-padding-16"> 
+                                <a class="twitter-timeline" data-height="500" href="https://twitter.com/RainmakerFoods?ref_src=twsrc%5Etfw">Tweets by RainmakerFoods</a> 
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                                 
+                            </li>                             
+                        </ul>                         
+                    </div>                     
+                    <hr> 
+                    <!-- Advertising -->                     
+                    <div class="w3-white w3-margin"> 
+                        <div class="w3-container w3-padding w3-black"> 
+                            <h4>Facebook</h4> 
+                        </div>                         
+                        <div class="w3-container w3-white"> 
+                            <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px"> 
+                                <span class="w3-display-middle"></span> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <hr> 
+                    <!-- Tags -->                     
+                    <div class="w3-white w3-margin"> 
+                        <div class="w3-container w3-padding w3-black"> 
+                            <h4>Tags</h4> 
+                        </div>                         
+                        <div class="w3-container w3-white"> 
+                            <p> <span class="w3-tag w3-black w3-margin-bottom">Fashion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hats</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Norway</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sweaters</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Deals</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jeans</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span> </p> 
+                        </div>                         
+                    </div>                     
+                    <hr> 
+                    <!-- Inspiration -->                     
+                    <div class="w3-white w3-margin"> 
+                        <div class="w3-container w3-padding w3-black"> 
+                            <h4>Inspiration</h4> 
+                        </div>                         
+                        <div class="w3-row-padding w3-white"> 
+                            <div class="w3-col s6"> 
+                                <p><img src="/w3images/jeans.jpg" alt="Jeans" style="width:100%"></p> 
+                                <p><img src="/w3images/team1.jpg" alt="Jeans" style="width:100%"></p> 
+                            </div>                             
+                            <div class="w3-col s6"> 
+                                <p><img src="/w3images/avatar_hat.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p> 
+                                <p><img src="/w3images/team4.jpg" alt="Jeans" style="width:100%"></p> 
+                            </div>                             
+                        </div>                         
+                    </div>                        
+                    <hr> 
+                                     
+                    <!-- END About/Intro Menu -->   
+					
+                </div>                 
+                <!-- END GRID -->                 
+            </div>             
+           
+        </div>  
+		 <footer class="w3-bar w3-bottom">
+		
+			<button type="button" class="w3-button" onclick="playSong()"><i class="fa fa-play-circle"></i></button>
+    <button type="button" class="w3-button" onclick="pauseSong()"><i class="fa fa-pause-circle"></i></button>
+			<button onclick="openNav()" class="w3-button menu">Menu &#9776;</button>
+		</footer>
+		<script src="js/nav.js"></script>
+    </body>     
+</html>

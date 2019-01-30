@@ -4,80 +4,98 @@
 <meta charset="utf-8">
 <title>Untitled Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body>
-	<div class="w3-top">
-		<div class="w3-bar">
-			<button onclick="document.getElementById('menu').style.display='block'" class="w3-button menu">Menu &#9776;</button>
-		</div>
-			 <a href="index.html"><img class="logo" src="images/2x/Artboard 1@2x.png" alt="Rainmaker"></a>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Brands</a>
+    <a href="#">News/Media</a>
+	<a href="#">Contact</a>
+  </div>
+</div>
+	<!-- logo bar -->
+<div class="w3-top w3-white"> 
+			<div class= "w3-bar w3-center w3-margin">
+<a href="index.html"><img class="logo" src="images/2x/Artboard 1@2x.png" alt="Rainmaker"></a>
+				
+</div>
 	</div>
-	<div class="w3-display-container w3-animate-opacity w3-text-white">
-		
-		<!--model menu-->
-		<div id="menu" class="w3-modal w3-animate-opacity" style="z-index: 200;">
-			<div class="w3-modal-content w3-card-4">
-      <header class="w3-container w3-gray">
-        <span onclick="document.getElementById('menu').style.display='none'" 
-        class="w3-button w3-large w3-display-topright">&times;</span>
-		  <img src="images/logo.svg" alt="Peddada" class="w3-image" style="width:25%;">
-      </header>
-      <div class="w3-container">
-        <ul class="w3-ul w3-center">
-  <li class="menu-text"></li>
-  <li class="menu-text"></li>
-  <li class="menu-text"></li>
-	<li class="menu-text"></li>
-			<li class="menu-text"><a href="silvertwo.html">s</a></li>
-<li class="menu-text"><a href="contact.html">Contact</a></li>
-</ul>
-      </div>
-      <footer class="w3-container w3-gray">
-        <p>Rainmaker Food Solutions, LLC&reg;</p>
-      </footer>
-    </div>
-		</div>
-		<!-- end menu -->
-		<audio id="myAudio">
+<div class="bgcolor w3-display-container w3-animate-opacity w3-text-white">
+	
+
+<audio id="myAudio">
     <source src="audio/263_full_design-for-life_0158_preview.mp3" type="audio/mpeg">
       Your browser does not support the audio format.
    </audio>
-<div class="icon-bar">
+<div class="icon-bar w3-hide-small">
   <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> 
   <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> 
   <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
   <a href="#" class="youtube"><i class="fab fa-youtube"></i></a> 
-</div>
-     
-<div class="audio-bar">
-    <button type="button" class="btn btn-link" onclick="playSong()"><em class="fa fa-play-circle"></em></button><br>
-    <button type="button" class="btn btn-link" onclick="pauseSong()"><em class="fa fa-pause-circle"></em></button>
-      </div>
-		<div class="w3-display-container" style="top:150px; left:50px;">
+</div> 
+<!-- large screens -->
+		<div class="w3-display-container w3-hide-medium w3-hide-small">
 		<!-- left text info box -->
-					<div class="w3-container w3-half" style="background:#dfd1a7;color:#623412;">
-			by
+			<div class="w3-display-container w3-half box-height" style="color:#623412;">
+			<div class="w3-display-middle main_heading">
+				<h1 class="w3-animate-top">Comsumers Demand Unique Products</h1>
+    <h2 class="w3-animate-bottom"><i>We Love Creating Them.</i></h2>
+						<a href="#" class="w3-button w3-black">Let's Get Started</a>
+			</div>
 			</div>
 		
 		<!-- image carousel right -->
-<div class="w3-container w3-half box-height" style="background:#dfd1a7;color:#623412;">
-			<div class="w3-content">
-				<img class="myImages w3-animate-top" src="images/changemakers.png" alt="image" style="width:100%;">
-				<img class="myImages w3-animate-opacity" src="images/sugarpova_betterbites.png" alt="image" style="width:100%;">
-				<img class="myImages w3-animate-opacity" src="images/changemakers.png" alt="image" style="width:100%;">
-				<img class="myImages w3-animate-opacity" src="images/sugarpova_betterbites.png" alt="image" style="width:100%;">
+<div class="w3-display-container w3-half box-height">
+			<div class="w3-display-middle" style="width:100%;">
+				<img class="myImages w3-animate-right" src="images/changemakers.png" alt="image" style="width:100%;">
+				<img class="myImages w3-animate-left" src="images/sugarpova_betterbites.png" alt="image" style="width:100%;">
+				<img class="myImages w3-animate-right" src="images/SportyGumBalls.png" alt="image" style="width:100%;">
+				<img class="myImages w3-animate-left" src="images/sugarpova_betterbites.png" alt="image" style="width:100%;">
 			</div>
 			</div>
 </div>
+	<!-- end large screens -->
+	<!-- meduim screens -->
+		<div class="w3-display-container w3-hide-large">
+		<!-- left text info box -->
+			<div class="w3-display-container w3-row box-height" style="color:#623412;">
+			<div class="w3-display-middle main_heading">
+				<h1 class="w3-animate-top">Comsumers Demand Unique Products</h1>
+    <h2 class="w3-animate-bottom"><i>We Love Creating Them.</i></h2>
+						
+			</div>
+			</div>
 		
-		<footer class="w3-container w3-teal w3-bottom">hi</footer>
+		<!-- image carousel right -->
+<div class="w3-display-container w3-row box-height" style="color:#623412;">
+			<div class="w3-display-middle" style="width:100%;">
+				<img class="myImagesSmall w3-animate-right" src="images/changemakers.png" alt="image" style="width:100%;">
+				<img class="myImagesSmall w3-animate-left" src="images/sugarpova_betterbites.png" alt="image" style="width:100%;">
+				<img class="myImagesSmall w3-animate-right" src="images/SportyGumBalls.png" alt="image" style="width:100%;">
+				<img class="myImagesSmall w3-animate-left" src="images/sugarpova_betterbites.png" alt="image" style="width:100%;">
+			</div>
+			</div>
+</div>
+	<!-- end medium screens -->
+		
+		<footer class="w3-bar w3-large w3-bottom">
+		
+			<button type="button" class="w3-button" onclick="playSong()"><i class="fa fa-play-circle"></i></button>
+    <button type="button" class="w3-button" onclick="pauseSong()"><i class="fa fa-pause-circle"></i></button>
+			<button onclick="openNav()" class="w3-button menu">Menu &#9776;</button>
+		</footer>
 	</div> <!-- end main container -->
+	<script src="js/nav.js"></script>
 	<script>
+
 var slideIndex = 0;
 carousel();
 
@@ -90,8 +108,26 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block"; 
-  setTimeout(carousel, 2000); 
+  setTimeout(carousel, 5000); 
+}
+</script>
+	<script>
+
+var slide = 0;
+carouselTwo();
+
+function carouselTwo() {
+  var i;
+  var x = document.getElementsByClassName("myImagesSmall");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slide++;
+  if (slide > x.length) {slide = 1} 
+  x[slide-1].style.display = "block"; 
+  setTimeout(carouselTwo, 5000); 
 }
 </script>
 </body>
 </html>
+
