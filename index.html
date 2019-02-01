@@ -31,7 +31,7 @@
 <div class="bgcolor w3-display-container w3-animate-opacity w3-text-white">
 	
 
-<audio id="myAudio">
+<audio id="myAudio" autoplay loop>
     <source src="audio/263_full_design-for-life_0158_preview.mp3" type="audio/mpeg">
       Your browser does not support the audio format.
    </audio>
@@ -127,6 +127,17 @@ function carouselTwo() {
   x[slide-1].style.display = "block"; 
   setTimeout(carouselTwo, 5000); 
 }
+</script>
+<script>
+
+var sound = document.getElementById("myAudio");
+function playSong() {
+    sound.play();
+}
+function pauseSong() {
+    sound.pause();
+}
+
 </script>
 </body>
 </html>
