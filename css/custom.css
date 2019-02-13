@@ -11,6 +11,8 @@ body,h1 {
   min-height: 100%;
   background-position: center;
   background-size: cover;
+  margin-top:50px;
+  margin-bottom:-50px;
 }
 .menu {
 	color:#000;
